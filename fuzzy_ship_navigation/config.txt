@@ -1,0 +1,4 @@
+python3 /home/filip/Desktop/faks/NENR/controller.py
+3
+20
+10
