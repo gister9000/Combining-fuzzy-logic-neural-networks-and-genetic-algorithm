@@ -8,7 +8,8 @@ Repo contains implementations of fuzzy logic structures and operations, implemen
 &emsp; fuzzy_relations/<br>
 &emsp; fuzzy_ship_navigation/<br>
     
-Fuzzy logic data structures and operations are implemented. First practical example is navigating a ship (using fuzzy logic and set of rules) through rivers in simulation (need to include the simulation .jar file to be testable #TODO)
+Fuzzy logic data structures and operations are implemented. First practical example is navigating a ship (using fuzzy logic and set of rules) through rivers in simulation (use ship_simulator.jar).
+<br> To test the simulator position yourself into fuzzy_ship_navigation folder and run "java -jar ship_simulator.jar".
 <br></br>
 
 ### Neural stuff

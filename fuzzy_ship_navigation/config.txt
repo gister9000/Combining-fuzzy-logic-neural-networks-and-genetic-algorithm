@@ -1,4 +1,4 @@
-python3 /home/filip/Desktop/faks/NENR/controller.py
+python3 ./controller.py
 3
 20
 10
