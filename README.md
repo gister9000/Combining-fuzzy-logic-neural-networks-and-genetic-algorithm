@@ -15,6 +15,9 @@ Fuzzy logic data structures and operations are implemented. First practical exam
 ### Neural stuff
 &emsp; neural_network/<br>
 Neural network implementation from 0 along with a demo: recognizing humanly written letters. You can use draw.py to generate learning samples. I tested it on writing alfa, beta, gamma, delta and epsilon 20 times each. Works great. <br>
+Supports 3 versions of backpropagation learning: online / batches / minibatches. Minibatches seems a little better than the others. <br>
+Usage: python3 neural-network.py [batch|online|minibatches] hidden_layer1_num ... output_layer_num <br> 
+Keep in mind that output_layer_num must be 5 if you're using my learning data because there are 5 letters. 
 <br></br>
 
 ### ANFIS

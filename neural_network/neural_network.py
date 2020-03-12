@@ -4,6 +4,9 @@ import subprocess
 import numpy
 import sys
 
+if len(sys.argv) <= 4:
+    print("Usage: python3 neural-network.py [batch|online|minibatches] hidden_layer1_num ... output_layer_num ")
+    exit()
 training_algorithm = sys.argv[1]
 
 class NeuralNetwork:
@@ -189,7 +192,7 @@ class Neuron:
             
         
 ###
-FOLDER = "./learningdata/20tocaka/"
+FOLDER = "./learningdata/"
 #FOLDER = sys.argv[1]
 # prepare learning data
 train_set = []
@@ -242,9 +245,7 @@ for i in range(1,21):
         batch_count += 1
         
 architecture = [number_of_inputs]
-if len(sys.argv) <= 4:
-    print("Usage: python3 neural-network.py [batch|online|minibatches] hidden_layer1_num ... output_layer_num ")
-    exit()
+
     
 for i in range(2, len(sys.argv)):
     architecture.append(int(sys.argv[i]))
