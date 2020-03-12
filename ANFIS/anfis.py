@@ -193,18 +193,18 @@ class ANFIS:
             
         return errors
 
-anfis = ANFIS(num_rules=2, learning_rate=0.000001)
-domain = np.linspace(0, 100, 100)
+#anfis = ANFIS(num_rules=2, learning_rate=0.000001)
+#domain = np.linspace(0, 100, 100)
 
 #errors = anfis.batch_learn(data, limit=100, epsilon=0.01)
 #plt.plot(domain, errors)
 
-anfis2 = ANFIS(num_rules=2, learning_rate=0.00005)
-errors2 = anfis.online_learn(data, limit=100, epsilon=0.01)
+#anfis2 = ANFIS(num_rules=2, learning_rate=0.00005)
+#errors2 = anfis.online_learn(data, limit=100, epsilon=0.01)
 
 #plt.plot(domain, errors2)
 #plt.show()
 
-for i in range(len(data)):
-    print(str(data[i][0]),"\t", str(data[i][1]), "\t", ANFIS.feed_forward(data[i][0], data[i][1])[0])
+#for i in range(len(data)):
+#    print(str(data[i][0]),"\t", str(data[i][1]), "\t", ANFIS.feed_forward(data[i][0], data[i][1])[0])
 
