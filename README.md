@@ -25,7 +25,7 @@ An adaptive neuro-fuzzy inference system or adaptive network-based fuzzy inferen
 https://en.wikipedia.org/wiki/Adaptive_neuro_fuzzy_inference_system
 <br></br>
 
-### Neural network with genetic algorithm instead for parameter optimization (learning)
+### Neural network with genetic algorithm for parameter optimization (learning)
 &emsp; evolving_NN/<br>
 Finally, neural network that finds optimal parameters by mimicking natural selection (genetic algorithm).<br>
 Example usage: python3 neurofuzzy.py 2 8 3 <br>
